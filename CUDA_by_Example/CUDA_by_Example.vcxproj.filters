@@ -13,13 +13,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{0fb15c64-b07f-46c0-8b08-84930ac4f3fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\GL">
+      <UniqueIdentifier>{05c25d6b-aaaa-4c77-840d-8c85ef8d0c73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <CudaCompile Include="3.2.3.parameter.cu">
-      <Filter>Source Files</Filter>
-    </CudaCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="gpuErrchk.cuh" />
+    <ClInclude Include="gpuErrchk.cuh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\book.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cpu_anim.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cpu_bitmap.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\gl_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\gpu_anim.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GL\glext.h">
+      <Filter>common\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\GL\glut.h">
+      <Filter>common\GL</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
