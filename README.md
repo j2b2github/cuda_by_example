@@ -5,3 +5,6 @@
 * Windows 11
 * CUDA 12.8
 * Visual Studio 2022
+
+## 원본 소스코드 경로
+* https://developer.nvidia.com/cuda-example
