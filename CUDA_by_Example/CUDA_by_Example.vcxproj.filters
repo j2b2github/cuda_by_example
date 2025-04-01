@@ -46,4 +46,7 @@
       <Filter>common\GL</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="3.2.3.parameter.cu" />
+  </ItemGroup>
 </Project>
